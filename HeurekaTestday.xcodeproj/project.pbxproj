@@ -3,17 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BCAAD35250E70E400F686DF /* OfferTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAAD34250E70E400F686DF /* OfferTableViewCell.swift */; };
+		5BCAAD37250E98E600F686DF /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAAD36250E98E600F686DF /* Offer.swift */; };
+		5BCAAD39250E9C2D00F686DF /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAAD38250E9C2D00F686DF /* ProductDetailViewController.swift */; };
+		5BCAAD3B250EB9B500F686DF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAAD3A250EB9B500F686DF /* Category.swift */; };
+		5BCAAD3D250EBC8500F686DF /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAAD3C250EBC8500F686DF /* DataProvider.swift */; };
+		5BCAAD40250EC8AE00F686DF /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAAD3F250EC8AE00F686DF /* CategoryCell.swift */; };
+		5BCAAD46251E7B3300F686DF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5BCAAD45251E7B3300F686DF /* Alamofire */; };
+		5BCAAD4B2522584E00F686DF /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAAD4A2522584E00F686DF /* DescriptionViewController.swift */; };
 		5BF0B4F224FBE334003F9C02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0B4F124FBE334003F9C02 /* AppDelegate.swift */; };
 		5BF0B4F424FBE334003F9C02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0B4F324FBE334003F9C02 /* SceneDelegate.swift */; };
-		5BF0B4F624FBE334003F9C02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0B4F524FBE334003F9C02 /* ViewController.swift */; };
+		5BF0B4F624FBE334003F9C02 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0B4F524FBE334003F9C02 /* HomePageViewController.swift */; };
 		5BF0B4F924FBE334003F9C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0B4F724FBE334003F9C02 /* Main.storyboard */; };
 		5BF0B4FB24FBE336003F9C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0B4FA24FBE336003F9C02 /* Assets.xcassets */; };
 		5BF0B4FE24FBE336003F9C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0B4FC24FBE336003F9C02 /* LaunchScreen.storyboard */; };
 		5BF0B50924FBE336003F9C02 /* HeurekaTestdayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0B50824FBE336003F9C02 /* HeurekaTestdayTests.swift */; };
+		5BF0B51924FD8AF7003F9C02 /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0B51824FD8AF7003F9C02 /* ProductsTableViewCell.swift */; };
+		5BF0B51B24FD8F13003F9C02 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0B51A24FD8F13003F9C02 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5BCAAD34250E70E400F686DF /* OfferTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferTableViewCell.swift; sourceTree = "<group>"; };
+		5BCAAD36250E98E600F686DF /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		5BCAAD38250E9C2D00F686DF /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		5BCAAD3A250EB9B500F686DF /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		5BCAAD3C250EBC8500F686DF /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		5BCAAD3F250EC8AE00F686DF /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		5BCAAD4A2522584E00F686DF /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 		5BF0B4EE24FBE334003F9C02 /* HeurekaTestday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeurekaTestday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF0B4F124FBE334003F9C02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BF0B4F324FBE334003F9C02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5BF0B4F524FBE334003F9C02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BF0B4F524FBE334003F9C02 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		5BF0B4F824FBE334003F9C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BF0B4FA24FBE336003F9C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BF0B4FD24FBE336003F9C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +55,8 @@
 		5BF0B50424FBE336003F9C02 /* HeurekaTestdayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeurekaTestdayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF0B50824FBE336003F9C02 /* HeurekaTestdayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeurekaTestdayTests.swift; sourceTree = "<group>"; };
 		5BF0B50A24FBE336003F9C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF0B51824FD8AF7003F9C02 /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		5BF0B51A24FD8F13003F9C02 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BCAAD46251E7B3300F686DF /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BCAAD3E250EBD5900F686DF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5BCAAD3C250EBC8500F686DF /* DataProvider.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		5BF0B4E524FBE334003F9C02 = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +107,11 @@
 		5BF0B4F024FBE334003F9C02 /* HeurekaTestday */ = {
 			isa = PBXGroup;
 			children = (
-				5BF0B4F124FBE334003F9C02 /* AppDelegate.swift */,
-				5BF0B4F324FBE334003F9C02 /* SceneDelegate.swift */,
-				5BF0B4F524FBE334003F9C02 /* ViewController.swift */,
-				5BF0B4F724FBE334003F9C02 /* Main.storyboard */,
-				5BF0B4FA24FBE336003F9C02 /* Assets.xcassets */,
-				5BF0B4FC24FBE336003F9C02 /* LaunchScreen.storyboard */,
-				5BF0B4FF24FBE336003F9C02 /* Info.plist */,
+				5BCAAD3E250EBD5900F686DF /* Data */,
+				5BF0B51624FBE40D003F9C02 /* Supporting Files */,
+				5BF0B51524FBE3EE003F9C02 /* ViewControllers */,
+				5BF0B51424FBE3D7003F9C02 /* Resources */,
+				5BF0B51324FBE3C9003F9C02 /* Cells */,
 			);
 			path = HeurekaTestday;
 			sourceTree = "<group>";
@@ -97,6 +123,57 @@
 				5BF0B50A24FBE336003F9C02 /* Info.plist */,
 			);
 			path = HeurekaTestdayTests;
+			sourceTree = "<group>";
+		};
+		5BF0B51324FBE3C9003F9C02 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5BF0B51824FD8AF7003F9C02 /* ProductsTableViewCell.swift */,
+				5BCAAD34250E70E400F686DF /* OfferTableViewCell.swift */,
+				5BCAAD3F250EC8AE00F686DF /* CategoryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5BF0B51424FBE3D7003F9C02 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BF0B4F724FBE334003F9C02 /* Main.storyboard */,
+				5BF0B4FC24FBE336003F9C02 /* LaunchScreen.storyboard */,
+				5BF0B4FA24FBE336003F9C02 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5BF0B51524FBE3EE003F9C02 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BF0B4F524FBE334003F9C02 /* HomePageViewController.swift */,
+				5BCAAD38250E9C2D00F686DF /* ProductDetailViewController.swift */,
+				5BCAAD4A2522584E00F686DF /* DescriptionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5BF0B51624FBE40D003F9C02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BF0B4FF24FBE336003F9C02 /* Info.plist */,
+				5BF0B4F124FBE334003F9C02 /* AppDelegate.swift */,
+				5BF0B4F324FBE334003F9C02 /* SceneDelegate.swift */,
+				5BF0B51724FBE423003F9C02 /* Model */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BF0B51724FBE423003F9C02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BF0B51A24FD8F13003F9C02 /* Product.swift */,
+				5BCAAD36250E98E600F686DF /* Offer.swift */,
+				5BCAAD3A250EB9B500F686DF /* Category.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +192,9 @@
 			dependencies = (
 			);
 			name = HeurekaTestday;
+			packageProductDependencies = (
+				5BCAAD45251E7B3300F686DF /* Alamofire */,
+			);
 			productName = HeurekaTestday;
 			productReference = 5BF0B4EE24FBE334003F9C02 /* HeurekaTestday.app */;
 			productType = "com.apple.product-type.application";
@@ -165,6 +245,9 @@
 				Base,
 			);
 			mainGroup = 5BF0B4E524FBE334003F9C02;
+			packageReferences = (
+				5BCAAD44251E7B3300F686DF /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 5BF0B4EF24FBE334003F9C02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -200,9 +283,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BF0B4F624FBE334003F9C02 /* ViewController.swift in Sources */,
+				5BCAAD37250E98E600F686DF /* Offer.swift in Sources */,
+				5BCAAD35250E70E400F686DF /* OfferTableViewCell.swift in Sources */,
+				5BCAAD3D250EBC8500F686DF /* DataProvider.swift in Sources */,
+				5BF0B4F624FBE334003F9C02 /* HomePageViewController.swift in Sources */,
+				5BF0B51924FD8AF7003F9C02 /* ProductsTableViewCell.swift in Sources */,
+				5BF0B51B24FD8F13003F9C02 /* Product.swift in Sources */,
+				5BCAAD3B250EB9B500F686DF /* Category.swift in Sources */,
+				5BCAAD39250E9C2D00F686DF /* ProductDetailViewController.swift in Sources */,
 				5BF0B4F224FBE334003F9C02 /* AppDelegate.swift in Sources */,
+				5BCAAD4B2522584E00F686DF /* DescriptionViewController.swift in Sources */,
 				5BF0B4F424FBE334003F9C02 /* SceneDelegate.swift in Sources */,
+				5BCAAD40250EC8AE00F686DF /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GKJZC62YRF;
-				INFOPLIST_FILE = HeurekaTestday/Info.plist;
+				INFOPLIST_FILE = "HeurekaTestday/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cz.hany.HeurekaTestday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -382,7 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GKJZC62YRF;
-				INFOPLIST_FILE = HeurekaTestday/Info.plist;
+				INFOPLIST_FILE = "HeurekaTestday/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cz.hany.HeurekaTestday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -469,6 +561,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5BCAAD44251E7B3300F686DF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5BCAAD45251E7B3300F686DF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BCAAD44251E7B3300F686DF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5BF0B4E624FBE334003F9C02 /* Project object */;
 }
